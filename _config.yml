@@ -1,7 +1,4 @@
-remote_theme: "mmistakes/minimal-mistakes@master"
-
-plugins:
-  - jekyll-include-cache
+remote_theme: "codebygina/mundana-theme-jekyll"
 
 title: "My Stationery Library"
 description: "A collection of my illustrations for use in journaling."
