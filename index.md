@@ -87,7 +87,7 @@ a {
 }
 
 a:hover {
-  color: var(#F5EBDD); /*light cream color*/
+  color: #F5EBDD; /*light cream color*/
 }
 
 /* Content cards */
