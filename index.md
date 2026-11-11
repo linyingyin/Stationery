@@ -79,11 +79,15 @@ Feel free to download, print, and use.
 Inspired by:
 - 2027 Sheep Sheep
 - 2027 One Piece Collab
+![Sheep Index]({{'/assets/images/indexes/sheep sheep.png' | relative_url}})
+![One Piece Index]({{'/assets/images/indexes/one piece.png' | relative_url}})
+
 
 ## Doodles
-
 Featuring my perpetually disappointed kitty
+![A cat who judges]({{'/assets/images/doodles/dissapointed cat.png' | relative_url}})
+
 
 ## Other
-
 Started using these as a nameplate for the first page of my SheepSheeps
+![Title cards for the first page]({{'/assets/images/other/title sheep sheep.png'| relative_url}})
