@@ -15,6 +15,14 @@ title: Home
   --deep-green: #075B46;
 }
 
+/* Center the content and leave space on both sides */
+.container {
+  width: 90% !important;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
 /* Overall page */
 body {
   background-color: #795348;
@@ -172,8 +180,12 @@ Feel free to download, print, and use.
 
 <!-- sheep sheep -->
 <div class="gallery-item">
-  <img src="{{ '/assets/images/indexes/sheep sheep.png' | relative_url }}"
+  <a href="{{ '/assets/images/indexes/sheep sheep.png' | relative_url }}"
+    target="_blank"
+    rel="noopener noreferrer">
+    <img src="{{ '/assets/images/indexes/sheep sheep.png' | relative_url }}"
        alt="2027 Sheep Sheep index">
+  </a>
   <div class="gallery-description">
     
     <h3>2027 Sheep Sheep</h3>
@@ -184,8 +196,12 @@ Feel free to download, print, and use.
 
 <!-- one piece -->
 <div class="gallery-item">
-  <img src="{{ '/assets/images/indexes/one piece.png' | relative_url }}"
+  <a href="{{ '/assets/images/indexes/one piece.png' | relative_url }}"
+    target="_blank"
+    rel="noopener noreferrer">
+    <img src="{{ '/assets/images/indexes/one piece.png' | relative_url }}"
        alt="One Piece index">
+  </a>
   <div class="gallery-description">
     
     <h3>2027 One Piece</h3>
@@ -198,8 +214,12 @@ Feel free to download, print, and use.
 
 <!-- 11/11/2026: Disappointed kitty first batch. Greyscales. -->
 <div class="gallery-item">
-  <img src="{{'/assets/images/doodles/dissapointed cat.png' | relative_url}}"
+  <a href="{{'/assets/images/doodles/dissapointed cat.png' | relative_url}}"
+    target="_blank"
+    rel="noopener noreferrer">
+    <img src="{{'/assets/images/doodles/dissapointed cat.png' | relative_url}}"
     alt="This cat is judging you">
+  </a>
   <div class="gallery-description">
 
     <h3>A cat who judges</h3>
@@ -211,8 +231,12 @@ Feel free to download, print, and use.
 
 <!-- nameplate for the first page of my SheepSheeps -->
 <div class="gallery-item">
-  <img src="{{'/assets/images/other/title sheep sheep.png' | relative_url}}"
+  <a href="{{'/assets/images/other/title sheep sheep.png' | relative_url}}" 
+    target="_blank"
+    rel="noopener noreferrer">
+    <img src="{{'/assets/images/other/title sheep sheep.png' | relative_url}}"
     alt="Fat Sheep">
+  </a>
   <div class="gallery-description">
 
     <h3>Large bellied 2027 sheep</h3>
