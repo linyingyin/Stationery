@@ -5,13 +5,12 @@ title: Home
 
 
 <style>
-/* Main palette 
-  11/11/26 - made the original pallet darker/richer */
+/* Main palette */
 :root {
   --brown: #59382F; /*dark mahogany*/
   --green: #4A965B; /*light green/jade/bamboo-ish*/
   --yellow: #D4B85D; /*antique gold*/
-  --ink: #30231F;
+  --ink: #30231F; /* dark brown */
   --deep-green: #075B46;
 }
 
@@ -40,7 +39,7 @@ article,
   
 /* Overall page */
 body {
-  background-color: #795348;
+  background-color: var(--brown);
   color: #F5EBDD; /*warm ivory*/
 }
 
@@ -187,7 +186,11 @@ hr {
 # Welcome to my stationery library!
 I use these in my journaling ecosystem, and wanted to share. 
 
-Feel free to download, print, and use.
+Feel free to download, print, and use. 
+I like using the OnlineLabels 8.5" x 11" clear gloss sticker sheets. Here are the links:
+- [Amazon](https://www.amazon.com/dp/B0H5MJGPNX?plpRedirect=mhFallback&ref=clp_hp_h_pc&th=1)
+- [OnlineLabel Store](https://www.onlinelabels.com/products/ol177?src=dlc-410&_gl=1*2xo139*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAwdDXBhDuARIsAFdLuknbN3sbJnrA6ydLbDsOOr27QRBaJP4R-Ns028aBrNzBsQD6vS4A2q0aAhcsEALw_wcB&gbraid=0AAAAAD_jZFWLpTp-JnV3hnr_uoF0nEgfC)
+(Please note that these are for **INKJET** printers!)
 
 ## Indexes
 
