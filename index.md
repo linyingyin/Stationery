@@ -194,7 +194,7 @@ hr {
   
 </style>
 
-# Welcome to my stationery library!
+# Welcome to my stationery repository!
 I use these in my journaling ecosystem, and wanted to share. 
 
 Feel free to download, print, and use. 
@@ -203,7 +203,7 @@ I like using the OnlineLabels 8.5" x 11" clear gloss sticker sheets. Here are th
 - [Amazon](https://www.amazon.com/dp/B0H5MJGPNX?plpRedirect=mhFallback&ref=clp_hp_h_pc&th=1)
 - [OnlineLabel Store](https://www.onlinelabels.com/products/ol177?src=dlc-410&_gl=1*2xo139*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAwdDXBhDuARIsAFdLuknbN3sbJnrA6ydLbDsOOr27QRBaJP4R-Ns028aBrNzBsQD6vS4A2q0aAhcsEALw_wcB&gbraid=0AAAAAD_jZFWLpTp-JnV3hnr_uoF0nEgfC)
 
-(Please note that these are for **INKJET** printers!)
+*(Please note that these are for **INKJET** printers!)*
 
 ## Indexes
 
