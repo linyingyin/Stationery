@@ -4,17 +4,18 @@ title: "My Stationery Library"
 ---
 
 Welcome to my stationery library!
+I use these in my journaling ecosystem, and wanted to share. 
 
-Here you'll find free stationery that you can download, print, and use.
+Feel free to download, print, and use.
 
 ## Indexes
 
 Coming soon!
 
-## Illustrations
+## Doodles
 
-Coming soon!
+Featuring my perpetually disappointed kitty
 
 ## Other
 
-Coming soon!
+Started using these as a nameplate for the first page of my SheepSheeps
