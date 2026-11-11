@@ -16,11 +16,26 @@ title: Home
 }
 
 /* Center the content and leave space on both sides */
-.container {
+.container,
+.container-fluid {
   width: 90% !important;
+  max-width: 1200px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+main,
+article,
+.page-content {
+  width: 100%;
   max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  box-sizing: border-box;
 }
   
 /* Overall page */
@@ -169,6 +184,15 @@ hr {
     height: 105px;
   }
 }
+
+.last-updated {
+  margin-top: 50px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 11px;
+  color: rgba(245, 235, 221, 0.65);
+}  
+
   
 </style>
 
@@ -243,5 +267,10 @@ Feel free to download, print, and use.
     <h3>Large bellied 2027 sheep</h3>
     <p>Started using these as a nameplate for the first page of my SheepSheeps.</p>
   </div>
+</div>
+
+<!-- LAST UPDATE FOOTER -->
+<div class="last-updated">
+  Last updated: {{ site.time | date: "%B %d, %Y at %I:%M %p" }}
 </div>
 
