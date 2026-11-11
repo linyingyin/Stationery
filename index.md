@@ -9,8 +9,9 @@ I use these in my journaling ecosystem, and wanted to share.
 Feel free to download, print, and use.
 
 ## Indexes
-
-Coming soon!
+Inspired by:
+- 2027 Sheep Sheep
+- 2027 One Piece Collab
 
 ## Doodles
 
