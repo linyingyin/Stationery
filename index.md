@@ -8,9 +8,9 @@ title: Home
 /* Main palette 
   11/11/26 - made the original pallet darker/richer */
 :root {
-  --brown: #795348; /*now rich chestnut brown*/
-  --green: #16866A; /*now jade brown*/
-  --yellow: #D4B85D; /*now antique gold*/
+  --brown: #59382F; /*dark mahogany*/
+  --green: #4A965B; /*light green/jade/bamboo-ish*/
+  --yellow: #D4B85D; /*antique gold*/
   --ink: #30231F;
   --deep-green: #075B46;
 }
@@ -41,18 +41,6 @@ article,
 /* Overall page */
 body {
   background-color: #795348;
-
-  background-image: 
-    linear-gradient(
-        rgba(121, 83, 72, 0.70), /*Only 30% of backgrnd IMAGE shows up*/
-        rgba(121, 83, 72, 0.70)
-    ),
-    url("{{'/assets/images/backgrounds/background.jpg' | relative_url}}");
-
-  background-repeat: repeat;
-  background-size: auto, 500px auto;
-  background-attachment: fixed;
-
   color: #F5EBDD; /*warm ivory*/
 }
 
