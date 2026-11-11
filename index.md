@@ -169,15 +169,6 @@ hr {
     height: 105px;
   }
 }
-
-/* Last updated timestamp */
-.last-updated {
-  margin-top: 50px;
-  padding-bottom: 15px;
-  text-align: center;
-  font-size: 11px;
-  color: rgba(245, 235, 221, 0.65);
-}
   
 </style>
 
@@ -252,11 +243,5 @@ Feel free to download, print, and use.
     <h3>Large bellied 2027 sheep</h3>
     <p>Started using these as a nameplate for the first page of my SheepSheeps.</p>
   </div>
-</div>
-
-
-<!-- LAST UPDATE FOR WEBSITE -->
-<div class="last-updated">
-  Last updated: {{ site.time | date: "%B %d, %Y at %I:%M %p" }}
 </div>
 
