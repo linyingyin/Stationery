@@ -3,6 +3,40 @@ layout: default
 title: Home
 ---
 
+/* Header branding */
+.navbar {
+  background-color: var(--deep-green) !important;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.navbar .navbar-brand {
+  color: #F5F0E7 !important;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+/* Yellow navigation tabs */
+.navbar .nav-item {
+  margin: 0 5px;
+}
+
+.navbar .nav-link {
+  background-color: var(--pyrite-yellow);
+  color: var(--ink) !important;
+  padding: 8px 15px !important;
+  border-radius: 2px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.navbar .nav-link:hover {
+  background-color: #E0CC82;
+  color: var(--ink) !important;
+}
+
 <style>
 /* Main palette */
 :root {
