@@ -5,26 +5,32 @@ title: Home
 
 
 <style>
-/* Main palette */
+/* Main palette 
+  11/11/26 - made the original pallet darker/richer */
 :root {
-  --light-brown-drab: #B59392;
-  --glaucous-green: #B4CDC2;
-  --pyrite-yellow: #CAB356;
-  --ink: #39302D;
-  --deep-green: #526D61;
+  --brown: #795348; /*now rich chestnut brown*/
+  --green: #16866A; /*now jade brown*/
+  --yellow: #D4B85D; /*now antique gold*/
+  --ink: #30231F;
+  --deep-green: #075B46;
 }
 
 /* Overall page */
 body {
-  background-color: #F2EEE5;
+  background-color: #795348;
 
-  background-image: url("{{'/assets/images/backgrounds/background.jpg' | relative_url}}");
+  background-image: 
+    linear-gradient(
+        rgba(121, 83, 72, 0.70), /*Only 30% of backgrnd IMAGE shows up*/
+        rgba(121, 83, 72, 0.70)
+    ),
+    url("{{'/assets/images/backgrounds/background.jpg' | relative_url}}");
 
   background-repeat: repeat;
-  background-size: 500px auto;
+  background-size: auto, 500px auto;
   background-attachment: fixed;
 
-  color: var(--ink);
+  color: #F5EBDD; /*warm ivory*/
 }
 
 /* Header branding */
@@ -47,7 +53,7 @@ body {
 }
 
 .navbar .nav-link {
-  background-color: var(--pyrite-yellow);
+  background-color: var(--yellow);
   color: var(--ink) !important;
   padding: 8px 15px !important;
   border-radius: 2px;
@@ -63,22 +69,22 @@ body {
 
 /* Headings */
 h1, h2, h3, h4 {
-  color: var(--ink);
+  color: #F5EBDD;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Links */
 a {
-  color: var(--deep-green);
+  color: var(--yellow);
 }
 
 a:hover {
-  color: var(--pyrite-yellow);
+  color: var(#F5EBDD); /*light cream color*/
 }
 
 /* Content cards */
 .card {
-  background-color: var(--glaucous-green);
+  background-color: var(--green);
   border: 1px solid rgba(57, 48, 45, 0.15);
   border-radius: 4px;
 }
@@ -87,12 +93,12 @@ a:hover {
 .btn {
   background-color: var(--deep-green);
   color: #F5F0E7;
-  border: 1px solid var(--pyrite-yellow);
+  border: 1px solid var(--yellow);
   border-radius: 2px;
 }
 
 .btn:hover {
-  background-color: var(--pyrite-yellow);
+  background-color: var(--yellow);
   color: var(--ink);
 }
 
@@ -103,7 +109,7 @@ a:hover {
   gap: 22px;
   padding: 18px;
   margin: 18px 0;
-  background-color: var(--glaucous-green);
+  background-color: var(--green);
   border: 1px solid rgba(57, 48, 45, 0.18);
   border-radius: 4px;
 }
@@ -133,9 +139,14 @@ a:hover {
   margin-bottom: 8px;
 }
 
+.gallery-item h3,
+.gallery-item p {
+  color: #FFFFFF;
+}
+  
 /* Decorative accents */
 hr {
-  border-color: var(--pyrite-yellow);
+  border-color: var(--yellow);
 }
 
 /* Mobile layout */
@@ -158,6 +169,7 @@ I use these in my journaling ecosystem, and wanted to share.
 Feel free to download, print, and use.
 
 ## Indexes
+
 <!-- sheep sheep -->
 <div class="gallery-item">
   <img src="{{ '/assets/images/indexes/sheep sheep.png' | relative_url }}"
@@ -183,7 +195,8 @@ Feel free to download, print, and use.
 </div>
 
 ## Doodles
-<!-- 11/11/2027: Disappointed kitty first batch. Greyscales. -->
+
+<!-- 11/11/2026: Disappointed kitty first batch. Greyscales. -->
 <div class="gallery-item">
   <img src="{{'/assets/images/doodles/dissapointed cat.png' | relative_url}}"
     alt="This cat is judging you">
@@ -195,6 +208,7 @@ Feel free to download, print, and use.
 </div>
 
 ## Other
+
 <!-- nameplate for the first page of my SheepSheeps -->
 <div class="gallery-item">
   <img src="{{'/assets/images/other/title sheep sheep.png' | relative_url}}"
