@@ -44,7 +44,7 @@ body {
   background-repeat: repeat;
   background-size: auto, 500px auto;
   background-attachment: fixed;
-  color: var(--ink);
+  color: var(--ink)
 }
 
 /* Header branding */
@@ -67,7 +67,7 @@ body {
 }
 
 .navbar .nav-link {
-  background-color: var(--yellow);
+  background-color: var(--brown);
   color: var(--ink) !important;
   padding: 8px 15px !important;
   border-radius: 2px;
