@@ -11,7 +11,7 @@ title: Home
   --green: #8A9A5B; /*moss green*/
   --yellow: #D4B85D; /*antique gold*/
   --ink: #30231F; /* dark brown */
-  --deep-green: #8A9A5B; /* sage green */
+  --deep-green: #5b663c;
 }
 
 /* Center the content and leave space on both sides */
@@ -39,11 +39,11 @@ article,
   
 /* Overall page */
 body {
-  background-color: #624034;
+  /*background-color: #624034;*/
   background-image:
     linear-gradient(
-      rgba(98, 64, 52, 0.70),
-      rgba(98, 64, 52, 0.70)
+      rgba(98, 64, 52, 0.10),
+      rgba(98, 64, 52, 0.10)
     ),
     url("{{ '/assets/images/backgrounds/brown lotus.jpg' | relative_url }}");
   background-repeat: repeat;
@@ -225,7 +225,6 @@ I like using the OnlineLabels 8.5" x 11" clear gloss sticker sheets. Here are th
        alt="2027 Sheep Sheep index">
   </a>
   <div class="gallery-description">
-    
     <h3>2027 Sheep Sheep</h3>
     <p>Index pages for the 2027 Sheep Sheep planner.</p>
 
@@ -241,7 +240,6 @@ I like using the OnlineLabels 8.5" x 11" clear gloss sticker sheets. Here are th
        alt="One Piece index">
   </a>
   <div class="gallery-description">
-    
     <h3>2027 One Piece</h3>
     <p>Index pages for the One Piece collab planners.</p>
 
@@ -259,7 +257,6 @@ I like using the OnlineLabels 8.5" x 11" clear gloss sticker sheets. Here are th
     alt="This cat is judging you">
   </a>
   <div class="gallery-description">
-
     <h3>A cat who judges</h3>
     <p>Enjoy some doodles of my kitty, who always looks so disappointed in me :')</p>
   </div>
@@ -276,7 +273,6 @@ I like using the OnlineLabels 8.5" x 11" clear gloss sticker sheets. Here are th
     alt="Fat Sheep">
   </a>
   <div class="gallery-description">
-
     <h3>Large bellied 2027 sheep</h3>
     <p>Started using these as a nameplate for the first page of my SheepSheeps.</p>
   </div>
@@ -287,11 +283,11 @@ I like using the OnlineLabels 8.5" x 11" clear gloss sticker sheets. Here are th
   <a href="{{'/assets/images/other/2027 master sheet.pdf' | relative_url}}" 
     target="_blank"
     rel="noopener noreferrer">
-    <img src="{{'/assets/images/other/2027 master sheet.pdf' | relative_url}}"
-    alt="Ready to Print PDF for all my 2027 doodles/indexes">
+    <img src="{{'/assets/images/other/2027 master sheet.png' | relative_url}}"
+         alt="Ready to Print PDF for all my 2027 doodles/indexes">
   </a>
+  
   <div class="gallery-description">
-
     <h3>Ready to print indexes + doodles </h3>
     <p>Ready to Print PDF for all my 2027 doodles/indexes. Scaled for Hobonichi Weeks (sheep) and A6 (One Piece) </p>
   </div>
