@@ -45,7 +45,7 @@ body {
       rgba(98, 64, 52, 0.10),
       rgba(98, 64, 52, 0.10)
     ),
-    url("{{ '/assets/images/backgrounds/brown lotus.jpg' | relative_url }}");
+    url("{{ '/assets/images/backgrounds/brown lotus.png' | relative_url }}");
   background-repeat: repeat;
   background-size: auto, 500px auto;
   background-attachment: fixed;
