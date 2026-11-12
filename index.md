@@ -42,7 +42,7 @@ body {
   /*background-color: #624034;*/
   background-image: url("{{ '/assets/images/backgrounds/brown lotus.png' | relative_url }}");
   background-repeat: repeat;
-  background-size: auto, 500px auto;
+  background-size: 500px auto;
   background-attachment: fixed;
   color: var(--ink)
 }
@@ -67,7 +67,7 @@ body {
 }
 
 .navbar .nav-link {
-  background-color: var(--brown);
+  background-color: var(--yellow);
   color: var(--ink) !important;
   padding: 8px 15px !important;
   border-radius: 2px;
@@ -89,7 +89,7 @@ h1, h2, h3, h4 {
 
 /* Links */
 a {
-  color: var(--yellow);
+  color: var(--brown);
 }
 
 a:hover {
