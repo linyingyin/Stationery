@@ -8,10 +8,10 @@ title: Home
 /* Main palette */
 :root {
   --brown: #59382F; /*dark mahogany*/
-  --green: #4A965B; /*light green/jade/bamboo-ish*/
+  --green: #8A9A5B; /*moss green*/
   --yellow: #D4B85D; /*antique gold*/
   --ink: #30231F; /* dark brown */
-  --deep-green: #30623B; /* darker  version of the regular green */
+  --deep-green: #8A9A5B; /* sage green */
 }
 
 /* Center the content and leave space on both sides */
@@ -39,8 +39,17 @@ article,
   
 /* Overall page */
 body {
-  background-color: var(--brown);
-  color: #F5EBDD; /*warm ivory*/
+  background-color: #624034;
+  background-image:
+    linear-gradient(
+      rgba(98, 64, 52, 0.70),
+      rgba(98, 64, 52, 0.70)
+    ),
+    url("{{ '/assets/images/backgrounds/brown lotus.jpg' | relative_url }}");
+  background-repeat: repeat;
+  background-size: auto, 500px auto;
+  background-attachment: fixed;
+  color: #F5EBDD;
 }
 
 /* Header branding */
@@ -270,6 +279,21 @@ I like using the OnlineLabels 8.5" x 11" clear gloss sticker sheets. Here are th
 
     <h3>Large bellied 2027 sheep</h3>
     <p>Started using these as a nameplate for the first page of my SheepSheeps.</p>
+  </div>
+</div>
+
+<!-- pdf for all things -->
+<div class="gallery-item">
+  <a href="{{'/assets/images/other/2027 master sheet.pdf' | relative_url}}" 
+    target="_blank"
+    rel="noopener noreferrer">
+    <img src="{{'/assets/images/other/2027 master sheet.pdf' | relative_url}}"
+    alt="Ready to Print PDF for all my 2027 doodles/indexes">
+  </a>
+  <div class="gallery-description">
+
+    <h3>Ready to print indexes + doodles </h3>
+    <p>Ready to Print PDF for all my 2027 doodles/indexes. Scaled for Hobonichi Weeks (sheep) and A6 (One Piece) </p>
   </div>
 </div>
 
