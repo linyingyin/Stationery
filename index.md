@@ -42,7 +42,7 @@ body {
   /*background-color: #624034;*/
   background-image: url("{{ '/assets/images/backgrounds/brown lotus.png' | relative_url }}");
   background-repeat: repeat;
-  background-size: 500px auto;
+  background-size: 750px auto;
   background-attachment: fixed;
   color: var(--ink)
 }
@@ -220,7 +220,13 @@ I like using the OnlineLabels 8.5" x 11" clear gloss sticker sheets. Here are th
        alt="2027 Sheep Sheep index">
   </a>
   <div class="gallery-description">
-    <h3>2027 Sheep Sheep</h3>
+    <h3>
+      <a href="{{ '/assets/images/indexes/sheep sheep.png' | relative_url }}"
+    target="_blank"
+    rel="noopener noreferrer">
+      2027 Sheep Sheep
+      </a>
+    </h3>
     <p>Index pages for the 2027 Sheep Sheep planner.</p>
 
   </div>
@@ -234,10 +240,16 @@ I like using the OnlineLabels 8.5" x 11" clear gloss sticker sheets. Here are th
     <img src="{{ '/assets/images/indexes/one piece.png' | relative_url }}"
        alt="One Piece index">
   </a>
-  <div class="gallery-description">
-    <h3>2027 One Piece</h3>
-    <p>Index pages for the One Piece collab planners.</p>
 
+  <div class="gallery-description">
+    <h3>
+      <a href="{{ '/assets/images/indexes/one piece.png' | relative_url }}"
+         target="_blank"
+         rel="noopener noreferrer">
+        2027 One Piece
+      </a>
+    </h3>
+    <p>Index pages for the One Piece collab planners.</p>
   </div>
 </div>
 
@@ -251,8 +263,15 @@ I like using the OnlineLabels 8.5" x 11" clear gloss sticker sheets. Here are th
     <img src="{{'/assets/images/doodles/dissapointed cat.png' | relative_url}}"
     alt="This cat is judging you">
   </a>
+  
   <div class="gallery-description">
-    <h3>A cat who judges</h3>
+    <h3>
+      <a href="{{'/assets/images/doodles/dissapointed cat.png' | relative_url}}"
+    target="_blank"
+    rel="noopener noreferrer">
+      A cat who judges
+      </a>
+    </h3>
     <p>Enjoy some doodles of my kitty, who always looks so disappointed in me :')</p>
   </div>
 </div>
@@ -267,8 +286,15 @@ I like using the OnlineLabels 8.5" x 11" clear gloss sticker sheets. Here are th
     <img src="{{'/assets/images/other/title sheep sheep.png' | relative_url}}"
     alt="Fat Sheep">
   </a>
+  
   <div class="gallery-description">
-    <h3>Large bellied 2027 sheep</h3>
+    <h3>
+      <a href="{{'/assets/images/other/title sheep sheep.png' | relative_url}}" 
+        target="_blank"
+         rel = "noopener noreferrer">
+        Large bellied 2027 sheep
+      </a>
+    </h3>
     <p>Started using these as a nameplate for the first page of my SheepSheeps.</p>
   </div>
 </div>
@@ -283,7 +309,13 @@ I like using the OnlineLabels 8.5" x 11" clear gloss sticker sheets. Here are th
   </a>
   
   <div class="gallery-description">
-    <h3>Ready to print indexes + doodles </h3>
+    <h3>
+      <a href="{{'/assets/images/other/2027 master sheet.pdf' | relative_url}}" 
+         target="_blank"
+         rel="noopener noreferrer">
+        Ready to print indexes + doodles 
+      </a>
+    </h3>
     <p>Ready to Print PDF for all my 2027 doodles/indexes. Scaled for Hobonichi Weeks (sheep) and A6 (One Piece) </p>
   </div>
 </div>
