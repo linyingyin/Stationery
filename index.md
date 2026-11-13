@@ -98,7 +98,7 @@ a:hover {
 
 /* Content cards */
 .card {
-  background-color: var(--green);
+  background-color: var(--deep-green);
   border: 1px solid rgba(57, 48, 45, 0.15);
   border-radius: 4px;
 }
