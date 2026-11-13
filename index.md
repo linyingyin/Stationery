@@ -83,7 +83,7 @@ body {
 
 /* Headings */
 h1, h2, h3, h4 {
-  color: var(--ink);
+  color: var(--cream);
   font-family: Arial, Helvetica, sans-serif;
 }
 
