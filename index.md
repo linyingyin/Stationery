@@ -12,6 +12,7 @@ title: Home
   --yellow: #D4B85D; /*antique gold*/
   --ink: #30231F; /* dark brown */
   --deep-green: #5b663c;
+  --cream: #F5F0E7; /*cream*/
 }
 
 /* Center the content and leave space on both sides */
@@ -39,7 +40,6 @@ article,
   
 /* Overall page */
 body {
-  /*background-color: #624034;*/
   background-image: url("{{ '/assets/images/backgrounds/brown lotus.png' | relative_url }}");
   background-repeat: repeat;
   background-size: 750px auto;
@@ -55,7 +55,7 @@ body {
 }
 
 .navbar .navbar-brand {
-  color: #F5F0E7 !important;
+  color: var(--cream) !important;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
   letter-spacing: 1px;
@@ -67,7 +67,7 @@ body {
 }
 
 .navbar .nav-link {
-  background-color: var(--yellow);
+  background-color: var(--cream);
   color: var(--ink) !important;
   padding: 8px 15px !important;
   border-radius: 2px;
@@ -77,7 +77,7 @@ body {
 }
 
 .navbar .nav-link:hover {
-  background-color: #E0CC82;
+  background-color: var(--yellow);
   color: var(--ink) !important;
 }
 
@@ -93,7 +93,7 @@ a {
 }
 
 a:hover {
-  color: #F5EBDD; /*light cream color*/
+  color: var(--cream); /*light cream color*/
 }
 
 /* Content cards */
@@ -106,7 +106,7 @@ a:hover {
 /* Buttons */
 .btn {
   background-color: var(--deep-green);
-  color: #F5F0E7;
+  color: var(--cream);
   border: 1px solid var(--yellow);
   border-radius: 2px;
 }
@@ -155,7 +155,7 @@ a:hover {
 
 .gallery-item h3,
 .gallery-item p {
-  color: #FFFFFF;
+  color: var(--cream);
 }
   
 /* Decorative accents */
