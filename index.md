@@ -8,11 +8,12 @@ title: Home
 /* Main palette */
 :root {
   --brown: #59382F; /*dark mahogany*/
-  --green: #8A9A5B; /*moss green*/
+  --green: #909976; /*moss green*/
   --yellow: #D4B85D; /*antique gold*/
   --ink: #30231F; /* dark brown */
   --deep-green: #5b663c;
   --cream: #F5F0E7; /*cream*/
+  --darkcrimson: #6d0000;
 }
 
 /* Center the content and leave space on both sides */
@@ -123,7 +124,7 @@ a:hover {
   gap: 22px;
   padding: 18px;
   margin: 18px 0;
-  background-color: var(--green);
+  background-color: var(--deep-green);
   border: 1px solid rgba(57, 48, 45, 0.18);
   border-radius: 4px;
 }
