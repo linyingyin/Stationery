@@ -44,7 +44,7 @@ body {
   background-repeat: repeat;
   background-size: 750px auto;
   background-attachment: fixed;
-  color: var(--ink)
+  color: var(--cream)
 }
 
 /* Header branding */
@@ -68,7 +68,7 @@ body {
 
 .navbar .nav-link {
   background-color: var(--cream);
-  color: var(--ink) !important;
+  color: var(--deep-green) !important;
   padding: 8px 15px !important;
   border-radius: 2px;
   font-family: Arial, Helvetica, sans-serif;
@@ -78,7 +78,7 @@ body {
 
 .navbar .nav-link:hover {
   background-color: var(--yellow);
-  color: var(--ink) !important;
+  color: var(--deep-green) !important;
 }
 
 /* Headings */
@@ -89,7 +89,7 @@ h1, h2, h3, h4 {
 
 /* Links */
 a {
-  color: var(--brown);
+  color: var(--green);
 }
 
 a:hover {
@@ -157,6 +157,10 @@ a:hover {
 .gallery-item p {
   color: var(--cream);
 }
+
+.intro-text {
+  color: var(--cream);
+}
   
 /* Decorative accents */
 hr {
@@ -199,6 +203,9 @@ hr {
 </style>
 
 # Welcome to my stationery repository!
+
+<div class="intro-text" markdown="1">
+
 I use these in my journaling ecosystem, and wanted to share. 
 
 Feel free to download, print, and use. 
@@ -208,6 +215,8 @@ I like using the OnlineLabels 8.5" x 11" clear gloss sticker sheets. Here are th
 - [OnlineLabel Store](https://www.onlinelabels.com/products/ol177?src=dlc-410&_gl=1*2xo139*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAwdDXBhDuARIsAFdLuknbN3sbJnrA6ydLbDsOOr27QRBaJP4R-Ns028aBrNzBsQD6vS4A2q0aAhcsEALw_wcB&gbraid=0AAAAAD_jZFWLpTp-JnV3hnr_uoF0nEgfC)
 
 *(Please note that these are for **INKJET** printers!)*
+
+</div>
 
 ## Indexes
 
