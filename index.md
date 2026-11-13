@@ -40,7 +40,7 @@ article,
   
 /* Overall page */
 body {
-  background-image: url("{{ '/assets/images/backgrounds/brown lotus.png' | relative_url }}");
+  background-image: url("{{ '/assets/images/backgrounds/red lotus.png' | relative_url }}");
   background-repeat: repeat;
   background-size: 750px auto;
   background-attachment: fixed;
