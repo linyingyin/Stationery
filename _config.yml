@@ -1,5 +1,11 @@
 remote_theme: "codebygina/mundana-theme-jekyll"
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-name: "Linying's Repository"
+name: "LinYingYin Stationery"
 title: "My Stationery Library"
-description: "A collection of my illustrations for use in journaling."
+description: "A collection of my illustrations for use in journaling. Plaanner inserts, themed tabs, and decorative illustrations."
+
+url: "https://linyingyin.github.io"
+baseurl: "/Stationery"
