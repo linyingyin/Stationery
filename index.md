@@ -227,7 +227,7 @@ I like using the OnlineLabels 8.5" x 11" clear gloss sticker sheets. Here are th
     target="_blank"
     rel="noopener noreferrer">
     <img src="{{ '/assets/images/indexes/sheep sheep.png' | relative_url }}"
-       alt="2027 Sheep Sheep index">
+       alt="2027 Sheep Sheep index for Hobnonich A5, A4, and Weeks">
   </a>
   <div class="gallery-description">
     <h3>
@@ -248,7 +248,7 @@ I like using the OnlineLabels 8.5" x 11" clear gloss sticker sheets. Here are th
     target="_blank"
     rel="noopener noreferrer">
     <img src="{{ '/assets/images/indexes/one piece.png' | relative_url }}"
-       alt="One Piece index">
+       alt="One Piece index for Hobonichi x One Piece">
   </a>
 
   <div class="gallery-description">
@@ -271,7 +271,7 @@ I like using the OnlineLabels 8.5" x 11" clear gloss sticker sheets. Here are th
     target="_blank"
     rel="noopener noreferrer">
     <img src="{{'/assets/images/doodles/dissapointed cat.png' | relative_url}}"
-    alt="This cat is judging you">
+    alt="This cat is judging you. Ft. My perpetually disappointed kitty.">
   </a>
   
   <div class="gallery-description">
@@ -294,7 +294,7 @@ I like using the OnlineLabels 8.5" x 11" clear gloss sticker sheets. Here are th
     target="_blank"
     rel="noopener noreferrer">
     <img src="{{'/assets/images/other/title sheep sheep.png' | relative_url}}"
-    alt="Fat Sheep">
+    alt="Fat Sheep planner insert. Themed for 2027 year of the Sheep.">
   </a>
   
   <div class="gallery-description">
